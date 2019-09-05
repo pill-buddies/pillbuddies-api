@@ -1,24 +1,10 @@
-# README
+# pillbuddies-api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The API endpoints for the Pill Buddies apps
 
-Things you may want to cover:
+## Local Setup
+Install MySQL on your local computer. Add user `root` with password `root`.
 
-* Ruby version
+If you have authentication issues with the rails app, run `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run `gem install bundler` and `bundle install` to download dependencies
